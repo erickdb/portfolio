@@ -9,7 +9,8 @@ const Footer = () => {
       <div className={`${styles.paddingX} max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8`}>
         
         {/* Profile Section */}
-        <div className="flex items-center gap-5">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-5">
+          {/* Foto Profile */}
           <div className="w-20 h-20 rounded-full border-2 border-secondary overflow-hidden flex-shrink-0">
             <img 
               src={logo}
@@ -18,7 +19,8 @@ const Footer = () => {
             />
           </div>
           
-          <div className="flex flex-col">
+          {/* Teks Profile */}
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <p className="text-white text-[18px] font-bold leading-tight">
               Erick Darmawan Boeniarto
             </p>
