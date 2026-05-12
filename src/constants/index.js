@@ -8,13 +8,6 @@ import {
   html,
   css,
   reactjs,
-  tailwind,
-  nodejs,
-  git,
-  figma,
-  docker,
-  postman,
-  php,
   laravel,
   mysql,
   carrent,
@@ -87,40 +80,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
     name: "laravel",
     icon: laravel,
   },
   {
     name: "MySQL",
     icon: mysql,
-  },
-  {
-    name: "postman",
-    icon: postman,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
