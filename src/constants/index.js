@@ -10,7 +10,6 @@ import {
   reactjs,
   laravel,
   mysql,
-  carrent,
   nfAcademy,
   kompas,
   BNSP,
@@ -18,6 +17,8 @@ import {
   cloud_aws,
   js_basic,
   backend_basic,
+  trisukma,
+  pwh,
 } from "../assets";
 
 export const navLinks = [
@@ -203,9 +204,9 @@ const certificates = [
 
 const projects = [
   {
-    name: "Lorem ipsum dolor",
+    name: "Trisukma FC",
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, odio?",
+      "A platform for showcasing and sharing public work and projects.",
     tags: [
       {
         name: "react",
@@ -220,9 +221,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: logo,
+    image: trisukma,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Public Work Hub",
+    description:
+      "A platform for showcasing and sharing public work and projects.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pwh,
+    source_code_link: "https://github.com/",
+  }
 ];
 
 export { services, technologies, experiences, certificates, projects };

@@ -30,7 +30,8 @@ import cloud_aws from "./certificates/belajar_dasar_aws.png"
 import js_basic from "./certificates/belajar_dasar_js.png"
 import backend_basic from "./certificates/membuat_aplikasi_backend_pemula.png"
 
-import carrent from "./carrent.png";
+import trisukma from "./trisukmafc.png";
+import pwh from "./pwh.png";
 
 export {
   logo,
@@ -61,5 +62,6 @@ export {
   cloud_aws,
   js_basic,
   backend_basic,
-  carrent,
+  trisukma,
+  pwh,
 };
