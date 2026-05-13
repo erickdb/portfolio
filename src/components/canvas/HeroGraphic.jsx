@@ -97,9 +97,6 @@ const HeroGraphicCanvas = () => {
         whileDrag="dragging"
       >
         {/* Titik Energi di dalam Bola */}
-        <span className="text-white font-bold text-xs sm:text-sm tracking-wider drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] z-10 select-none pointer-events-none text-center px-2">
-          Pull
-        </span>
       </motion.div>
 
     </div>
